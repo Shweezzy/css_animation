@@ -1,0 +1,1285 @@
+html {
+    overflow-y: hidden;
+}
+
+.wrapper {
+    width: 800px;
+    vertical-align: bottom;
+    margin: auto;
+}
+
+.container {
+    width: 100%;
+    height: 600px;
+    background: url('./images/container.png');
+    background-position: center;
+    background-size: contain;
+    animation: opacity 24s;
+}
+
+.text {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    color: #484248;
+    top: 101px;
+    left: 40px;
+}
+
+#first__point {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    top: 335px;
+    left: 330px;
+    animation: points 1s infinite;
+}
+
+#second__point {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    top: 260px;
+    left: 370px;
+    animation: points 1s infinite;
+}
+
+
+.hurdle {
+    position: relative;
+    bottom: 480px;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    background: url(./images/hurdle.png);
+    background-position: center;
+    background-size: contain;
+    margin: auto;
+    animation: surfacing 24s 2s;
+}
+
+#hurdle__absolute {
+    position: absolute;
+    width: 97%;
+    top: 24%;
+    height: 59%;
+    margin-left: 7px;
+}
+
+.hurdle-absolute {
+    background: url('./images/12.png');
+}
+
+
+#act_subs1 {
+    position: absolute;
+    width: 20%;
+    float: left;
+    margin: 3% 0 0 3.5%;
+}
+
+#act_subs2 {
+    position: absolute;
+    width: 20%;
+    left: 70%;
+    margin: 3% 0 0 7%;
+}
+
+#scopolamint-container {
+    position: absolute;
+    width: 35%;
+    height: 25%;
+    top: 10%;
+    left: 20%;
+}
+
+#scopolamint {
+    width: 100%;
+    height: 115%;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+
+#first-group {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#radical1,
+#radical2,
+#radical3,
+#radical4,
+#radical5,
+#radical6,
+#radical7,
+#radical8,
+#radical9,
+#radical10 {
+    position: absolute;
+    width: 8%;
+}
+
+#radical1 {
+    left: 5%;
+    top: 28%;
+    opacity: 1;
+    animation: firstGroupRadical 24s 8s;
+}
+
+#radical2 {
+    left: 11%;
+    top: 10%;
+    opacity: 1;
+    animation: firstGroupRadical 24s 8s;
+}
+
+#radical3 {
+    top: 19%;
+    left: 27%;
+    opacity: 1;
+    animation: firstGroupRadical 24s 8s;
+}
+
+#radical4 {
+    right: 26%;
+    top: 14%;
+    opacity: 1;
+    animation: firstGroupRadical 24s 8s;
+}
+
+#radical5 {
+    right: 6%;
+    top: 10%;
+    opacity: 1;
+    animation: firstGroupRadical 24s 8s;
+}
+
+#radical6 {
+    bottom: 0;
+    left: 14%;
+    opacity: 1;
+    animation: secondGroupRadical 24s 11s;
+}
+
+#radical7 {
+    bottom: 4%;
+    left: 47%;
+    opacity: 1;
+    animation: secondGroupRadical 24s 11s;
+}
+
+#radical8 {
+    bottom: 0;
+    right: 31%;
+    opacity: 1;
+    animation: secondGroupRadical 24s 11s;
+}
+
+#radical9 {
+    bottom: 9%;
+    right: 10%;
+    opacity: 1;
+    animation: secondGroupRadical 24s 11s;
+}
+
+#radical10 {
+    bottom: 10%;
+    right: 3%;
+    opacity: 1;
+    animation: secondGroupRadical 24s 11s;
+}
+
+#shutt-left {
+    position: absolute;
+    width: 10%;
+    bottom: 4%;
+    left: 34%;
+    animation: shuttPulse 1s 12s;
+    animation-iteration-count: 5;
+}
+
+#shutt-right {
+    position: absolute;
+    width: 10%;
+    bottom: 6%;
+    right: 18%;
+    opacity: 1;
+    animation: shuttPulse 1s 12s;
+    animation-iteration-count: 5;
+}
+
+#orange-container {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    right: 50%;
+    top: 35%;
+}
+
+#red-container {
+    position: absolute;
+    left: 110%;
+    width: 40%;
+    height: 100%;
+}
+
+#red-container img,
+#orange-container img {
+    position: absolute;
+    width: 13%;
+}
+
+#orange1 {
+    right: -6%;
+    top: -37%;
+    opacity: 1;
+    animation: orangeMovement1 24s 5s linear;
+}
+
+#orange2 {
+    right: -2%;
+    top: -17%;
+    opacity: 1;
+    animation: orangeMovement2 24s 5s linear;
+}
+
+#orange3 {
+    right: 10%;
+    top: -28%;
+    opacity: 1;
+    animation: orangeMovement3 24s 5s linear;
+}
+
+#orange4 {
+    right: 16%;
+    top: -10%;
+    opacity: 1;
+    animation: orangeMovement4 24s 5s linear;
+}
+
+#orange5 {
+    right: 35%;
+    top: -20%;
+    opacity: 1;
+    animation: orangeMovement5 24s 5s linear;
+}
+
+#orange6 {
+    right: 0%;
+    top: 0%;
+    opacity: 1;
+    animation: orangeMovement6 24s 5.3s linear;
+}
+
+#orange7 {
+    right: 33%;
+    top: 0%;
+    opacity: 1;
+    animation: orangeMovement7 24s 5.5s linear;
+}
+
+#orange8 {
+    right: 10%;
+    top: 7%;
+    opacity: 1;
+    animation: orangeMovement8 24s 5.5s linear;
+}
+
+#orange9 {
+    right: -1%;
+    top: 17%;
+    opacity: 1;
+    animation: orangeMovement9 24s 5.3s linear;
+}
+
+#orange10 {
+    right: 13%;
+    top: 27%;
+    opacity: 1;
+    animation: orangeMovement10 24s 5.1s linear;
+}
+
+#orange11 {
+    right: 37%;
+    top: 26%;
+    opacity: 1;
+    animation: orangeMovement11 24s 5s linear;
+}
+
+#orange12 {
+    right: -4%;
+    top: 34%;
+    opacity: 1;
+    animation: orangeMovement12 24s 5.4s linear;
+}
+
+#orange13 {
+    right: 16%;
+    top: 41%;
+    opacity: 1;
+    animation: orangeMovement13 24s 5.5s linear;
+}
+
+#red1 {
+    left: 10%;
+    top: -13%;
+    opacity: 1;
+    animation: redMovement1 24s 5.5s linear;
+}
+
+#red2 {
+    top: -7%;
+    left: 30%;
+    opacity: 1;
+    animation: redMovement2 24s 5.4s linear;
+}
+
+#red3 {
+    left: 29%;
+    top: 8%;
+    opacity: 1;
+    animation: redMovement3 24s 5.1s linear;
+}
+
+#red4 {
+    top: 7%;
+    left: 46%;
+    opacity: 1;
+    animation: redMovement4 24s 5s linear;
+}
+
+#red5 {
+    top: 27%;
+    left: 28%;
+    opacity: 1;
+    animation: redMovement5 24s 5s linear;
+}
+
+#red6 {
+    top: 32%;
+    left: 39%;
+    opacity: 1;
+    animation: redMovement6 24s 5s linear;
+}
+
+#red7 {
+    top: 47%;
+    left: 25%;
+    opacity: 1;
+    animation: redMovement7 24s 5s linear;
+}
+
+#red8 {
+    top: 55%;
+    left: 37%;
+    opacity: 1;
+    animation: redMovement8 24s 5.4s linear;
+}
+
+#red9 {
+    top: 66%;
+    left: 24%;
+    opacity: 1;
+    animation: redMovement9 24s 5.3s linear;
+}
+
+#red10 {
+    top: 78%;
+    left: 28%;
+    opacity: 1;
+    animation: redMovement10 24s 5.4s linear;
+}
+
+#red11 {
+    top: 50%;
+    left: 10%;
+    opacity: 1;
+    animation: redMovement11 24s 5.2s linear;
+}
+
+#red12 {
+    top: 50%;
+    left: 10%;
+    opacity: 1;
+    animation: redMovement12 24s 5.4s linear;
+}
+
+#red13 {
+    top: 50%;
+    left: 10%;
+    opacity: 1;
+    animation: redMovement13 24s 5.1s linear;
+}
+
+#red14 {
+    top: 50%;
+    left: 10%;
+    opacity: 1;
+    animation: redMovement14 24s 5.5s linear;
+}
+
+@keyframes points {
+    from {
+        transform: scale(1.0);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    to {
+        transform: scale(1.0);
+    }
+}
+
+@keyframes opacity {
+    9% {
+        opacity: 1;
+    }
+
+    12% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+/* hurdle-block */
+
+
+@keyframes surfacing {
+    0% {
+        width: 0;
+        height: 0;
+        margin-top: 20%;
+    }
+
+    10% {
+        width: 75%;
+        height: 396px;
+        opacity: 1;
+        margin-top: 0;
+    }
+
+    to {
+        width: 75%;
+        height: 396px;
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
+/* shutterstocks pulse  */
+
+@keyframes shuttPulse {
+    0% {
+        filter: drop-shadow(0 0 2px #FFFFFF);
+    }
+
+    50% {
+        filter: drop-shadow(0 0 20px #FFFFFF);
+    }
+
+    to {
+        filter: drop-shadow(0 0 2px #FFFFFF);
+    }
+}
+
+@keyframes firstGroupRadical {
+    0% {
+        opacity: 1;
+    }
+
+    5% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes secondGroupRadical {
+    0% {
+        opacity: 1;
+    }
+
+    5% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes orangeMovement1 {
+    5% {
+        right: 62%;
+        top: 36%;
+        opacity: 1;
+    }
+
+    10% {
+        right: 62%;
+        top: 36%;
+    }
+
+    21% {
+        right: 52%;
+        top: 248%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        right: 52%;
+        top: 248%;
+        opacity: 0;
+    }
+}
+
+@keyframes orangeMovement2 {
+    5% {
+        right: 25%;
+        top: 44%;
+        opacity: 1;
+    }
+
+    10% {
+        right: 25%;
+        top: 44%;
+    }
+
+    21% {
+        right: 25%;
+        top: 271%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        right: 25%;
+        top: 271%;
+        opacity: 0;
+    }
+}
+
+@keyframes orangeMovement3 {
+    5% {
+        right: 114%;
+        top: 52%;
+        opacity: 1;
+    }
+
+    10% {
+        right: 114%;
+        top: 52%;
+    }
+
+    21% {
+        right: 114%;
+        top: 252%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        right: 114%;
+        top: 252%;
+        opacity: 0;
+    }
+}
+
+@keyframes orangeMovement4 {
+    5% {
+        right: 86%;
+        top: 46%;
+        opacity: 1;
+    }
+
+    10% {
+        right: 86%;
+        top: 46%;
+    }
+
+    21% {
+        right: 86%;
+        top: 246%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        right: 86%;
+        top: 246%;
+        opacity: 0;
+    }
+}
+
+@keyframes orangeMovement5 {
+    5% {
+        right: 141%;
+        top: 53%;
+        opacity: 1;
+    }
+
+    10% {
+        right: 141%;
+        top: 53%;
+    }
+
+    21% {
+        right: 141%;
+        top: 253%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        right: 141%;
+        top: 253%;
+        opacity: 0;
+    }
+}
+
+@keyframes orangeMovement6 {
+    5% {
+        right: 56%;
+        top: 55%;
+        opacity: 1;
+    }
+
+    10% {
+        right: 56%;
+        top: 55%;
+    }
+
+    21% {
+        right: 56%;
+        top: 265%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        right: 56%;
+        top: 265%;
+        opacity: 0;
+    }
+}
+
+@keyframes orangeMovement7 {
+    5% {
+        right: 218%;
+        top: 65%;
+        opacity: 1;
+    }
+
+    10% {
+        right: 218%;
+        top: 65%;
+    }
+
+    21% {
+        right: 218%;
+        top: 289%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        right: 218%;
+        top: 289%;
+        opacity: 0;
+    }
+}
+
+@keyframes orangeMovement8 {
+    5% {
+        right: 182%;
+        top: 72%;
+        opacity: 1;
+    }
+
+    10% {
+        right: 182%;
+        top: 72%;
+    }
+
+    21% {
+        right: 182%;
+        top: 272%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        right: 182%;
+        top: 272%;
+        opacity: 0;
+    }
+}
+
+@keyframes orangeMovement9 {
+    5% {
+        right: 132%;
+        top: 66%;
+        opacity: 1;
+    }
+
+    10% {
+        right: 132%;
+        top: 66%;
+    }
+
+    21% {
+        right: 132%;
+        top: 266%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        right: 132%;
+        top: 266%;
+        opacity: 0;
+    }
+}
+
+@keyframes orangeMovement10 {
+    5% {
+        right: 105%;
+        top: 67%;
+        opacity: 1;
+    }
+
+    10% {
+        right: 105%;
+        top: 67%;
+    }
+
+    21% {
+        right: 105%;
+        top: 267%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        right: 105%;
+        top: 267%;
+        opacity: 0;
+    }
+}
+
+@keyframes orangeMovement11 {
+    5% {
+        right: 86%;
+        top: 60%;
+        opacity: 1;
+    }
+
+    10% {
+        right: 86%;
+        top: 60%;
+    }
+
+    21% {
+        right: 86%;
+        top: 260%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        right: 86%;
+        top: 260%;
+        opacity: 0;
+    }
+}
+
+@keyframes orangeMovement12 {
+    5% {
+        right: 156%;
+        top: 65%;
+        opacity: 1;
+    }
+
+    10% {
+        right: 156%;
+        top: 65%;
+    }
+
+    21% {
+        right: 156%;
+        top: 279%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        right: 156%;
+        top: 279%;
+        opacity: 0;
+    }
+}
+
+@keyframes orangeMovement13 {
+    5% {
+        right: 5%;
+        top: 54%;
+        opacity: 1;
+    }
+
+    10% {
+        right: 5%;
+        top: 54%;
+    }
+
+    21% {
+        right: 0;
+        top: 274%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        right: 0;
+        top: 274%;
+        opacity: 0;
+    }
+}
+
+@keyframes redMovement1 {
+    5% {
+        left: 193%;
+        top: 17%;
+    }
+
+    10% {
+        left: 193%;
+        top: 17%;
+    }
+
+    21% {
+        left: 193%;
+        top: 257%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        left: 193%;
+        top: 257%;
+        opacity: 0;
+    }
+}
+
+@keyframes redMovement2 {
+    5% {
+        top: 26%;
+        left: 164%;
+    }
+
+    10% {
+        top: 26%;
+        left: 164%;
+    }
+
+    21% {
+        top: 246%;
+        left: 164%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        top: 246%;
+        left: 164%;
+        opacity: 0;
+    }
+}
+
+@keyframes redMovement3 {
+    5% {
+        left: 138%;
+        top: 22%;
+    }
+
+    10% {
+        left: 138%;
+        top: 22%;
+    }
+
+    21% {
+        left: 138%;
+        top: 242%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        left: 138%;
+        top: 242%;
+        opacity: 0;
+    }
+}
+
+@keyframes redMovement4 {
+    5% {
+        top: 37%;
+        left: 253%;
+    }
+
+    10% {
+        top: 37%;
+        left: 253%;
+    }
+
+    21% {
+        top: 257%;
+        left: 253%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        top: 257%;
+        left: 253%;
+        opacity: 0;
+    }
+}
+
+@keyframes redMovement5 {
+    5% {
+        top: 46%;
+        left: 210%;
+    }
+
+    10% {
+        top: 46%;
+        left: 210%;
+    }
+
+    21% {
+        top: 266%;
+        left: 210%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        top: 266%;
+        left: 210%;
+        opacity: 0;
+    }
+}
+
+@keyframes redMovement6 {
+    5% {
+        top: 50%;
+        left: 189%;
+    }
+
+    10% {
+        top: 50%;
+        left: 189%;
+    }
+
+    21% {
+        top: 270%;
+        left: 189%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        top: 270%;
+        left: 189%;
+        opacity: 0;
+    }
+}
+
+@keyframes redMovement7 {
+    5% {
+        top: 46%;
+        left: 141%;
+    }
+
+    10% {
+        top: 46%;
+        left: 141%;
+    }
+
+    21% {
+        top: 256%;
+        left: 141%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        top: 256%;
+        left: 141%;
+        opacity: 0;
+    }
+}
+
+@keyframes redMovement8 {
+    5% {
+        top: 55%;
+        left: 152%;
+    }
+
+    10% {
+        top: 55%;
+        left: 152%;
+    }
+
+    21% {
+        top: 283%;
+        left: 152%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        top: 283%;
+        left: 152%;
+        opacity: 0;
+    }
+}
+
+@keyframes redMovement9 {
+    5% {
+        top: 64%;
+        left: 64%;
+    }
+
+    10% {
+        top: 64%;
+        left: 64%;
+    }
+
+    21% {
+        top: 286%;
+        left: 64%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        top: 286%;
+        left: 64%;
+        opacity: 0;
+    }
+}
+
+@keyframes redMovement10 {
+    5% {
+        top: 50%;
+        left: 89%;
+    }
+
+    10% {
+        top: 50%;
+        left: 89%;
+    }
+
+    21% {
+        top: 313%;
+        left: 28%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        top: 313%;
+        left: 28%;
+        opacity: 0;
+    }
+}
+
+@keyframes redMovement11 {
+    5% {
+        top: 61%;
+        left: 79%;
+    }
+
+    10% {
+        top: 61%;
+        left: 79%;
+    }
+
+    21% {
+        top: 291%;
+        left: 79%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        top: 291%;
+        left: 79%;
+        opacity: 0;
+    }
+}
+
+@keyframes redMovement12 {
+    5% {
+        top: 54%;
+        left: 121%;
+    }
+
+    10% {
+        top: 54%;
+        left: 121%;
+    }
+
+    21% {
+        top: 307%;
+        left: 121%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        top: 307%;
+        left: 121%;
+        opacity: 0;
+    }
+}
+
+@keyframes redMovement13 {
+    5% {
+        top: 57%;
+        left: 36%;
+    }
+
+    10% {
+        top: 57%;
+    }
+
+    21% {
+        top: 278%;
+        left: 36%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        top: 278%;
+        left: 36%;
+        opacity: 0;
+    }
+}
+
+@keyframes redMovement14 {
+    5% {
+        top: 52%;
+        left: 171%;
+    }
+
+    10% {
+        top: 52%;
+        left: 171%;
+    }
+
+    21% {
+        top: 262%;
+        left: 171%;
+        opacity: 1;
+    }
+
+    27% {
+        opacity: 0;
+    }
+
+    100% {
+        top: 262%;
+        left: 171%;
+        opacity: 0;
+    }
+}
